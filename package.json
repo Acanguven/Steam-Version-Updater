@@ -1,0 +1,50 @@
+{
+  "name": "steam-version-updater",
+  "version": "1.0.0",
+  "description": "A CLI tool for finding and downloading specific versions of Steam games",
+  "main": "lib/index.js",
+  "bin": {
+    "steam-version-updater": "./steam-search.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node steam-search.js",
+    "prepublishOnly": "npm test",
+    "postpublish": "echo 'Package published successfully!'",
+    "lint": "echo \"No linting configured\" && exit 0",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "steam",
+    "game",
+    "version",
+    "update",
+    "cli",
+    "depot",
+    "manifest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/steam-version-updater.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/steam-version-updater/issues"
+  },
+  "homepage": "https://github.com/yourusername/steam-version-updater#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "axios-cookiejar-support": "^5.0.5",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "steam-user": "github:DoctorMcKay/node-steam-user",
+    "tough-cookie": "^5.1.2"
+  }
+}
