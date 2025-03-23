@@ -1,6 +1,6 @@
 {
   "name": "steam-version-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI-only tool for finding and downloading specific versions of Steam games (not intended for programmatic use)",
   "main": "lib/index.js",
   "bin": {
@@ -28,12 +28,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/steam-version-updater.git"
+    "url": "git+https://github.com/acanguven/steam-version-updater.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/steam-version-updater/issues"
+    "url": "https://github.com/acanguven/steam-version-updater/issues"
   },
-  "homepage": "https://github.com/yourusername/steam-version-updater#readme",
+  "homepage": "https://github.com/acanguven/steam-version-updater#readme",
   "engines": {
     "node": ">=14.0.0"
   },
