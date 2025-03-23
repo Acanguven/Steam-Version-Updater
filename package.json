@@ -1,6 +1,6 @@
 {
   "name": "steam-version-updater",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI-only tool for finding and downloading specific versions of Steam games (not intended for programmatic use)",
   "main": "lib/index.js",
   "bin": {
