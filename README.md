@@ -10,48 +10,38 @@ A command-line tool for finding and downloading specific versions of Steam games
 - Generate commands for the Steam console to download specific game versions
 - Interactive and colorful command-line interface
 
-## Installation
-
-### Global Installation (Recommended)
-
-```bash
-npm install -g steam-version-updater
-```
-
-### Local Installation
-
-```bash
-npm install steam-version-updater
-```
-
 ## Usage
 
-### As a CLI Tool
+### Quick Usage with npx (Recommended)
 
-If installed globally:
-
-```bash
-steam-version-updater
-```
-
-If installed locally:
+Run directly without installing:
 
 ```bash
 npx steam-version-updater
 ```
 
-### As a Module
+This runs the latest version without requiring any installation.
 
-```javascript
-const { SteamClient, SteamSearch, CLI } = require("steam-version-updater");
+### Installation Options
 
-// Example: Create a new Steam client
-const client = new SteamClient();
+If you prefer to install:
 
-// Example: Login anonymously
-await client.login();
+```bash
+# Install locally in a project
+npm install steam-version-updater
 
-// Use other functionality as needed
+# Or install globally
+npm install -g steam-version-updater
+```
+
+Then run with:
+
+```bash
+# If installed locally
+npx steam-version-updater
+
+# If installed globally
+steam-version-updater
 ```
 
 ## Requirements

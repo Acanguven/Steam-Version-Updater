@@ -1,7 +1,7 @@
 {
   "name": "steam-version-updater",
   "version": "1.0.0",
-  "description": "A CLI tool for finding and downloading specific versions of Steam games",
+  "description": "A CLI-only tool for finding and downloading specific versions of Steam games (not intended for programmatic use)",
   "main": "lib/index.js",
   "bin": {
     "steam-version-updater": "./steam-search.js"
@@ -22,7 +22,8 @@
     "update",
     "cli",
     "depot",
-    "manifest"
+    "manifest",
+    "npx"
   ],
   "author": "",
   "license": "MIT",
